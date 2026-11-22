@@ -1,0 +1,2363 @@
+{
+ "patches": {
+  "15.1": {
+   "games": 64,
+   "blue_winrate": 0.641,
+   "top_picks": [
+    {
+     "picks": 27,
+     "winrate": 0.704,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 23,
+     "winrate": 0.391,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 22,
+     "winrate": 0.727,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 22,
+     "winrate": 0.273,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 22,
+     "winrate": 0.545,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 21,
+     "winrate": 0.524,
+     "champion_id": "fa136dcc-94b9-35e2-aaff-cc4c2c46f7a3"
+    },
+    {
+     "picks": 21,
+     "winrate": 0.286,
+     "champion_id": "3f8c659e-ac1f-3a2e-877d-3af99bbc027b"
+    },
+    {
+     "picks": 19,
+     "winrate": 0.579,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 19,
+     "winrate": 0.474,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.389,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    }
+   ]
+  },
+  "15.2": {
+   "games": 99,
+   "blue_winrate": 0.495,
+   "top_picks": [
+    {
+     "picks": 40,
+     "winrate": 0.525,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 39,
+     "winrate": 0.462,
+     "champion_id": "fa136dcc-94b9-35e2-aaff-cc4c2c46f7a3"
+    },
+    {
+     "picks": 38,
+     "winrate": 0.605,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 38,
+     "winrate": 0.526,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.4,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.543,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.562,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.438,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.367,
+     "champion_id": "3f8c659e-ac1f-3a2e-877d-3af99bbc027b"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.448,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    }
+   ]
+  },
+  "15.3": {
+   "games": 104,
+   "blue_winrate": 0.548,
+   "top_picks": [
+    {
+     "picks": 32,
+     "winrate": 0.562,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.4,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.4,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.414,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.448,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.667,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.481,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.444,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 26,
+     "winrate": 0.538,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 26,
+     "winrate": 0.5,
+     "champion_id": "16e85313-6510-315b-83f5-13f437b191c3"
+    }
+   ]
+  },
+  "15.6": {
+   "games": 40,
+   "blue_winrate": 0.475,
+   "top_picks": [
+    {
+     "picks": 16,
+     "winrate": 0.438,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.5,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 13,
+     "winrate": 0.385,
+     "champion_id": "52ab36ab-7b94-31c7-afa5-e74badcd74ea"
+    },
+    {
+     "picks": 13,
+     "winrate": 0.462,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 13,
+     "winrate": 0.462,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 13,
+     "winrate": 0.538,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.417,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.5,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.455,
+     "champion_id": "3d6dd0f6-f96f-3375-84f6-86ac9ff68538"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.545,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    }
+   ]
+  },
+  "15.7": {
+   "games": 111,
+   "blue_winrate": 0.532,
+   "top_picks": [
+    {
+     "picks": 43,
+     "winrate": 0.558,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 37,
+     "winrate": 0.541,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.629,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.514,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.543,
+     "champion_id": "ca371e80-177a-3738-b51c-62f85a56916c"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.471,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.529,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.5,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 33,
+     "winrate": 0.455,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.581,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    }
+   ]
+  },
+  "15.8": {
+   "games": 120,
+   "blue_winrate": 0.558,
+   "top_picks": [
+    {
+     "picks": 42,
+     "winrate": 0.429,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 39,
+     "winrate": 0.615,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 38,
+     "winrate": 0.526,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 37,
+     "winrate": 0.595,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 36,
+     "winrate": 0.611,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 36,
+     "winrate": 0.472,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.571,
+     "champion_id": "ca371e80-177a-3738-b51c-62f85a56916c"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.5,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.5,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 33,
+     "winrate": 0.424,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    }
+   ]
+  },
+  "15.9": {
+   "games": 115,
+   "blue_winrate": 0.513,
+   "top_picks": [
+    {
+     "picks": 36,
+     "winrate": 0.611,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 36,
+     "winrate": 0.639,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.457,
+     "champion_id": "e0e42b0a-7461-3143-b9a9-b70417c2384d"
+    },
+    {
+     "picks": 33,
+     "winrate": 0.485,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.562,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.469,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.452,
+     "champion_id": "d50bfa6a-0179-375a-b583-e23a79a16908"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.467,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.567,
+     "champion_id": "ca371e80-177a-3738-b51c-62f85a56916c"
+    },
+    {
+     "picks": 28,
+     "winrate": 0.429,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    }
+   ]
+  },
+  "15.10": {
+   "games": 116,
+   "blue_winrate": 0.578,
+   "top_picks": [
+    {
+     "picks": 34,
+     "winrate": 0.529,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.588,
+     "champion_id": "d50bfa6a-0179-375a-b583-e23a79a16908"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.594,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.562,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.516,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.6,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.552,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 28,
+     "winrate": 0.429,
+     "champion_id": "5fb5f03b-af85-31e8-a476-bf7f73a4819a"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.519,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 26,
+     "winrate": 0.346,
+     "champion_id": "e0e42b0a-7461-3143-b9a9-b70417c2384d"
+    }
+   ]
+  },
+  "15.11": {
+   "games": 64,
+   "blue_winrate": 0.406,
+   "top_picks": [
+    {
+     "picks": 17,
+     "winrate": 0.588,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.562,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.6,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.6,
+     "champion_id": "1e62a140-7265-3823-884d-621be47f2b00"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.4,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.667,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.429,
+     "champion_id": "5fb5f03b-af85-31e8-a476-bf7f73a4819a"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.571,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.286,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.643,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    }
+   ]
+  },
+  "15.14": {
+   "games": 64,
+   "blue_winrate": 0.438,
+   "top_picks": [
+    {
+     "picks": 25,
+     "winrate": 0.44,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 23,
+     "winrate": 0.609,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 22,
+     "winrate": 0.455,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 22,
+     "winrate": 0.591,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 20,
+     "winrate": 0.5,
+     "champion_id": "5f3ce9cb-be45-3625-8c1d-e8068d6fee76"
+    },
+    {
+     "picks": 20,
+     "winrate": 0.5,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 19,
+     "winrate": 0.579,
+     "champion_id": "3d6dd0f6-f96f-3375-84f6-86ac9ff68538"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.333,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.389,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.529,
+     "champion_id": "2bf2eedb-58ef-39d3-8be6-88508b55ffc3"
+    }
+   ]
+  },
+  "15.15": {
+   "games": 112,
+   "blue_winrate": 0.5,
+   "top_picks": [
+    {
+     "picks": 40,
+     "winrate": 0.6,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 39,
+     "winrate": 0.41,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 39,
+     "winrate": 0.718,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.5,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.645,
+     "champion_id": "64a87acc-1566-3df6-ba47-c9847adb808d"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.29,
+     "champion_id": "ab13269a-7517-3048-8d48-af87c8211b08"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.533,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.6,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.467,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.6,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    }
+   ]
+  },
+  "15.16": {
+   "games": 105,
+   "blue_winrate": 0.524,
+   "top_picks": [
+    {
+     "picks": 32,
+     "winrate": 0.656,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.5,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.594,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.323,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.667,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.633,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.519,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.37,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.519,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.481,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    }
+   ]
+  },
+  "15.17": {
+   "games": 133,
+   "blue_winrate": 0.504,
+   "top_picks": [
+    {
+     "picks": 33,
+     "winrate": 0.485,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 33,
+     "winrate": 0.576,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.625,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.438,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.548,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.452,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.586,
+     "champion_id": "bbd16ab8-92ed-3f82-8748-b23c20eca335"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.586,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.379,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.586,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    }
+   ]
+  },
+  "15.18": {
+   "games": 33,
+   "blue_winrate": 0.545,
+   "top_picks": [
+    {
+     "picks": 9,
+     "winrate": 0.889,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.111,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.556,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.5,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.25,
+     "champion_id": "aeab401d-5c3e-38d6-8bb5-fe87f6db1a6f"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.5,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.375,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.5,
+     "champion_id": "bbd16ab8-92ed-3f82-8748-b23c20eca335"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.375,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.375,
+     "champion_id": "16e85313-6510-315b-83f5-13f437b191c3"
+    }
+   ]
+  },
+  "16.2": {
+   "games": 52,
+   "blue_winrate": 0.5,
+   "top_picks": [
+    {
+     "picks": 28,
+     "winrate": 0.429,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.52,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.52,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 20,
+     "winrate": 0.6,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 19,
+     "winrate": 0.632,
+     "champion_id": "2db51c3e-7bf3-3ea4-94bd-aac8567b0df9"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.444,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.529,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.471,
+     "champion_id": "e0e42b0a-7461-3143-b9a9-b70417c2384d"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.588,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.375,
+     "champion_id": "24553764-d70e-3d37-ab9b-51b37ff3e287"
+    }
+   ]
+  },
+  "16.3": {
+   "games": 67,
+   "blue_winrate": 0.567,
+   "top_picks": [
+    {
+     "picks": 25,
+     "winrate": 0.52,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 23,
+     "winrate": 0.435,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 21,
+     "winrate": 0.524,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 20,
+     "winrate": 0.6,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 20,
+     "winrate": 0.55,
+     "champion_id": "2db51c3e-7bf3-3ea4-94bd-aac8567b0df9"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.5,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.556,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.5,
+     "champion_id": "64a87acc-1566-3df6-ba47-c9847adb808d"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.556,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.5,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    }
+   ]
+  },
+  "16.4": {
+   "games": 21,
+   "blue_winrate": 0.619,
+   "top_picks": [
+    {
+     "picks": 6,
+     "winrate": 0.333,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.5,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.167,
+     "champion_id": "ecbbe9a4-9956-3828-b9d1-e5c148eb7959"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.6,
+     "champion_id": "2db51c3e-7bf3-3ea4-94bd-aac8567b0df9"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.6,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 5,
+     "winrate": 1.0,
+     "champion_id": "64a87acc-1566-3df6-ba47-c9847adb808d"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.2,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.2,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.6,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.2,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    }
+   ]
+  },
+  "16.7": {
+   "games": 54,
+   "blue_winrate": 0.574,
+   "top_picks": [
+    {
+     "picks": 19,
+     "winrate": 0.684,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.5,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.556,
+     "champion_id": "ecbbe9a4-9956-3828-b9d1-e5c148eb7959"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.278,
+     "champion_id": "2db51c3e-7bf3-3ea4-94bd-aac8567b0df9"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.278,
+     "champion_id": "e5a58f35-4cf1-302e-85fc-e99e161c38ab"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.467,
+     "champion_id": "e0e42b0a-7461-3143-b9a9-b70417c2384d"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.467,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.6,
+     "champion_id": "7889d995-c5bd-3d3a-a142-cbec510a328e"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.429,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.643,
+     "champion_id": "cdfefdba-3f62-3d3a-b20d-62e9d7a474e1"
+    }
+   ]
+  },
+  "16.8": {
+   "games": 48,
+   "blue_winrate": 0.542,
+   "top_picks": [
+    {
+     "picks": 16,
+     "winrate": 0.438,
+     "champion_id": "ecbbe9a4-9956-3828-b9d1-e5c148eb7959"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.438,
+     "champion_id": "2bf2eedb-58ef-39d3-8be6-88508b55ffc3"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.4,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.4,
+     "champion_id": "2bcecd67-6a8c-3c44-be6a-bd120bc1dcc5"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.467,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.571,
+     "champion_id": "e0e42b0a-7461-3143-b9a9-b70417c2384d"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.214,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 13,
+     "winrate": 0.385,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 13,
+     "winrate": 0.538,
+     "champion_id": "bbd16ab8-92ed-3f82-8748-b23c20eca335"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.75,
+     "champion_id": "cdfefdba-3f62-3d3a-b20d-62e9d7a474e1"
+    }
+   ]
+  },
+  "16.9": {
+   "games": 50,
+   "blue_winrate": 0.4,
+   "top_picks": [
+    {
+     "picks": 19,
+     "winrate": 0.474,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.5,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.533,
+     "champion_id": "ecbbe9a4-9956-3828-b9d1-e5c148eb7959"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.571,
+     "champion_id": "7889d995-c5bd-3d3a-a142-cbec510a328e"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.571,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 14,
+     "winrate": 0.714,
+     "champion_id": "e0e42b0a-7461-3143-b9a9-b70417c2384d"
+    },
+    {
+     "picks": 13,
+     "winrate": 0.538,
+     "champion_id": "2bcecd67-6a8c-3c44-be6a-bd120bc1dcc5"
+    },
+    {
+     "picks": 13,
+     "winrate": 0.692,
+     "champion_id": "717061ba-4e85-30e1-9340-aef80368dfa0"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.333,
+     "champion_id": "5f69228a-cad9-3813-9d0b-31c455503d83"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.5,
+     "champion_id": "bbd16ab8-92ed-3f82-8748-b23c20eca335"
+    }
+   ]
+  },
+  "16.10": {
+   "games": 49,
+   "blue_winrate": 0.551,
+   "top_picks": [
+    {
+     "picks": 12,
+     "winrate": 0.583,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.5,
+     "champion_id": "b3007001-25a5-3a10-91bc-0bdb5dac0ae7"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.667,
+     "champion_id": "7889d995-c5bd-3d3a-a142-cbec510a328e"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.667,
+     "champion_id": "cdfefdba-3f62-3d3a-b20d-62e9d7a474e1"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.417,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.5,
+     "champion_id": "5f69228a-cad9-3813-9d0b-31c455503d83"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.667,
+     "champion_id": "42ba3161-73e4-3370-b909-0cc4e30f4b79"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.636,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.545,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.545,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    }
+   ]
+  },
+  "16.17": {
+   "games": 45,
+   "blue_winrate": 0.711,
+   "top_picks": [
+    {
+     "picks": 13,
+     "winrate": 0.692,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 13,
+     "winrate": 0.231,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 12,
+     "winrate": 0.5,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.455,
+     "champion_id": "2318754b-1f27-3758-a5d7-d221fce0f02e"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.545,
+     "champion_id": "717061ba-4e85-30e1-9340-aef80368dfa0"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.364,
+     "champion_id": "2db51c3e-7bf3-3ea4-94bd-aac8567b0df9"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.364,
+     "champion_id": "e5a58f35-4cf1-302e-85fc-e99e161c38ab"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.636,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.455,
+     "champion_id": "a6ba29b1-2523-38e5-9a2c-69a35156f2df"
+    },
+    {
+     "picks": 10,
+     "winrate": 0.5,
+     "champion_id": "e680cccf-8234-39c7-979f-4b749909b65a"
+    }
+   ]
+  }
+ },
+ "events": {
+  "LCK - LCK Cup 2025": {
+   "games": 109,
+   "blue_winrate": 0.615,
+   "top_picks": [
+    {
+     "picks": 34,
+     "winrate": 0.412,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 33,
+     "winrate": 0.545,
+     "champion_id": "fa136dcc-94b9-35e2-aaff-cc4c2c46f7a3"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.548,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.467,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.367,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 28,
+     "winrate": 0.536,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 28,
+     "winrate": 0.286,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 28,
+     "winrate": 0.464,
+     "champion_id": "2bf2eedb-58ef-39d3-8be6-88508b55ffc3"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.296,
+     "champion_id": "3f8c659e-ac1f-3a2e-877d-3af99bbc027b"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.556,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    }
+   ]
+  },
+  "LEC - Winter 2025": {
+   "games": 84,
+   "blue_winrate": 0.536,
+   "top_picks": [
+    {
+     "picks": 43,
+     "winrate": 0.628,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 38,
+     "winrate": 0.526,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 36,
+     "winrate": 0.444,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.588,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.484,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.333,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.481,
+     "champion_id": "3f8c659e-ac1f-3a2e-877d-3af99bbc027b"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.593,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.481,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 26,
+     "winrate": 0.462,
+     "champion_id": "fa136dcc-94b9-35e2-aaff-cc4c2c46f7a3"
+    }
+   ]
+  },
+  "LTA South - Split 1 2025": {
+   "games": 30,
+   "blue_winrate": 0.567,
+   "top_picks": [
+    {
+     "picks": 11,
+     "winrate": 0.636,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.364,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 11,
+     "winrate": 0.727,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 10,
+     "winrate": 0.5,
+     "champion_id": "fa136dcc-94b9-35e2-aaff-cc4c2c46f7a3"
+    },
+    {
+     "picks": 10,
+     "winrate": 0.6,
+     "champion_id": "d50bfa6a-0179-375a-b583-e23a79a16908"
+    },
+    {
+     "picks": 10,
+     "winrate": 0.5,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.778,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.125,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.375,
+     "champion_id": "cf8f9783-b321-3a1d-95bd-f3e3b612d4c4"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.625,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    }
+   ]
+  },
+  "LTA North - Split 1 2025": {
+   "games": 26,
+   "blue_winrate": 0.423,
+   "top_picks": [
+    {
+     "picks": 9,
+     "winrate": 0.556,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.556,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.333,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.667,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.444,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.444,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.25,
+     "champion_id": "3f8c659e-ac1f-3a2e-877d-3af99bbc027b"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.625,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.714,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.714,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    }
+   ]
+  },
+  "LTA Cross-Conference - Split 1 2025": {
+   "games": 18,
+   "blue_winrate": 0.389,
+   "top_picks": [
+    {
+     "picks": 7,
+     "winrate": 0.429,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.429,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.5,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.5,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.167,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.167,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.667,
+     "champion_id": "16e85313-6510-315b-83f5-13f437b191c3"
+    },
+    {
+     "picks": 5,
+     "winrate": 1.0,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.6,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.6,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    }
+   ]
+  },
+  "LEC - Spring 2025": {
+   "games": 139,
+   "blue_winrate": 0.612,
+   "top_picks": [
+    {
+     "picks": 46,
+     "winrate": 0.435,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 45,
+     "winrate": 0.556,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 42,
+     "winrate": 0.619,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 40,
+     "winrate": 0.575,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 40,
+     "winrate": 0.625,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 37,
+     "winrate": 0.541,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.4,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.5,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.382,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 34,
+     "winrate": 0.706,
+     "champion_id": "16e85313-6510-315b-83f5-13f437b191c3"
+    }
+   ]
+  },
+  "LCK - Split 2 2025": {
+   "games": 236,
+   "blue_winrate": 0.513,
+   "top_picks": [
+    {
+     "picks": 76,
+     "winrate": 0.474,
+     "champion_id": "d50bfa6a-0179-375a-b583-e23a79a16908"
+    },
+    {
+     "picks": 76,
+     "winrate": 0.579,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 70,
+     "winrate": 0.471,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 70,
+     "winrate": 0.557,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 68,
+     "winrate": 0.471,
+     "champion_id": "fa136dcc-94b9-35e2-aaff-cc4c2c46f7a3"
+    },
+    {
+     "picks": 67,
+     "winrate": 0.612,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 64,
+     "winrate": 0.547,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 60,
+     "winrate": 0.45,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 59,
+     "winrate": 0.441,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 57,
+     "winrate": 0.491,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    }
+   ]
+  },
+  "LTA South - Split 2 2025": {
+   "games": 97,
+   "blue_winrate": 0.454,
+   "top_picks": [
+    {
+     "picks": 33,
+     "winrate": 0.667,
+     "champion_id": "ca371e80-177a-3738-b51c-62f85a56916c"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.531,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.548,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 30,
+     "winrate": 0.467,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.414,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.31,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 29,
+     "winrate": 0.517,
+     "champion_id": "d50bfa6a-0179-375a-b583-e23a79a16908"
+    },
+    {
+     "picks": 28,
+     "winrate": 0.571,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 26,
+     "winrate": 0.538,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.44,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    }
+   ]
+  },
+  "LTA North - Split 2 2025": {
+   "games": 94,
+   "blue_winrate": 0.5,
+   "top_picks": [
+    {
+     "picks": 34,
+     "winrate": 0.382,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 33,
+     "winrate": 0.424,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.656,
+     "champion_id": "d5da0bd8-00ea-3bc1-9ad9-09751d791b20"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.5,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.562,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.484,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 27,
+     "winrate": 0.519,
+     "champion_id": "8092e614-e064-36f3-87b7-0c5ac018d7cc"
+    },
+    {
+     "picks": 26,
+     "winrate": 0.423,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.52,
+     "champion_id": "e9dae12d-a8bd-3a92-9851-3a10c20acabd"
+    },
+    {
+     "picks": 23,
+     "winrate": 0.348,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    }
+   ]
+  },
+  "LCK - Split 3 2025": {
+   "games": 206,
+   "blue_winrate": 0.456,
+   "top_picks": [
+    {
+     "picks": 68,
+     "winrate": 0.441,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 65,
+     "winrate": 0.523,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 63,
+     "winrate": 0.619,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 58,
+     "winrate": 0.483,
+     "champion_id": "5f3ce9cb-be45-3625-8c1d-e8068d6fee76"
+    },
+    {
+     "picks": 58,
+     "winrate": 0.552,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 57,
+     "winrate": 0.474,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 54,
+     "winrate": 0.519,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 53,
+     "winrate": 0.528,
+     "champion_id": "3d6dd0f6-f96f-3375-84f6-86ac9ff68538"
+    },
+    {
+     "picks": 52,
+     "winrate": 0.442,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 52,
+     "winrate": 0.462,
+     "champion_id": "5748a92e-ed31-3fbf-854d-a37923f7c7ae"
+    }
+   ]
+  },
+  "LTA South - Split 3 2025": {
+   "games": 67,
+   "blue_winrate": 0.552,
+   "top_picks": [
+    {
+     "picks": 20,
+     "winrate": 0.6,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 20,
+     "winrate": 0.55,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 19,
+     "winrate": 0.632,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.722,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.389,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.412,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.438,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.5,
+     "champion_id": "5f3ce9cb-be45-3625-8c1d-e8068d6fee76"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.562,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.562,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    }
+   ]
+  },
+  "LTA North - Split 3 2025": {
+   "games": 67,
+   "blue_winrate": 0.552,
+   "top_picks": [
+    {
+     "picks": 21,
+     "winrate": 0.476,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 20,
+     "winrate": 0.4,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 19,
+     "winrate": 0.474,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 19,
+     "winrate": 0.842,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.389,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.667,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.529,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.412,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.529,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.647,
+     "champion_id": "a6c6341f-f06c-3428-a0e3-797a0d0e2638"
+    }
+   ]
+  },
+  "LEC - Summer 2025": {
+   "games": 85,
+   "blue_winrate": 0.506,
+   "top_picks": [
+    {
+     "picks": 27,
+     "winrate": 0.556,
+     "champion_id": "31360e91-4470-348a-9a2b-ce10e9a107b1"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.44,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 24,
+     "winrate": 0.667,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 23,
+     "winrate": 0.478,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 23,
+     "winrate": 0.391,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 23,
+     "winrate": 0.522,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 22,
+     "winrate": 0.727,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 21,
+     "winrate": 0.524,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 21,
+     "winrate": 0.381,
+     "champion_id": "f5848d60-ffbf-3c51-93ec-797142690b59"
+    },
+    {
+     "picks": 21,
+     "winrate": 0.381,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    }
+   ]
+  },
+  "LTA Cross-Conference - Regional Championship 2025": {
+   "games": 22,
+   "blue_winrate": 0.591,
+   "top_picks": [
+    {
+     "picks": 6,
+     "winrate": 0.5,
+     "champion_id": "5748a92e-ed31-3fbf-854d-a37923f7c7ae"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.833,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.333,
+     "champion_id": "6d94812f-ea1f-3460-80b7-c38518abb709"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.167,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.333,
+     "champion_id": "2bcecd67-6a8c-3c44-be6a-bd120bc1dcc5"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.5,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.667,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 6,
+     "winrate": 1.0,
+     "champion_id": "64a87acc-1566-3df6-ba47-c9847adb808d"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.6,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 5,
+     "winrate": 0.0,
+     "champion_id": "aeab401d-5c3e-38d6-8bb5-fe87f6db1a6f"
+    }
+   ]
+  },
+  "LEC - LEC Versus 2026": {
+   "games": 101,
+   "blue_winrate": 0.485,
+   "top_picks": [
+    {
+     "picks": 51,
+     "winrate": 0.51,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 41,
+     "winrate": 0.488,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 40,
+     "winrate": 0.6,
+     "champion_id": "2db51c3e-7bf3-3ea4-94bd-aac8567b0df9"
+    },
+    {
+     "picks": 37,
+     "winrate": 0.595,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.343,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 33,
+     "winrate": 0.606,
+     "champion_id": "9104bd4f-7d7d-3895-8151-d3210b34e3d2"
+    },
+    {
+     "picks": 32,
+     "winrate": 0.531,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 31,
+     "winrate": 0.581,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 28,
+     "winrate": 0.571,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 28,
+     "winrate": 0.5,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    }
+   ]
+  },
+  "LCS - Split 1 2026": {
+   "games": 57,
+   "blue_winrate": 0.596,
+   "top_picks": [
+    {
+     "picks": 18,
+     "winrate": 0.333,
+     "champion_id": "a6c6341f-f06c-3428-a0e3-797a0d0e2638"
+    },
+    {
+     "picks": 18,
+     "winrate": 0.556,
+     "champion_id": "14fada26-63ec-357f-8bf6-e2993edca107"
+    },
+    {
+     "picks": 17,
+     "winrate": 0.471,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.5,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.625,
+     "champion_id": "eaea6b00-a13f-3241-a356-04d7882fb128"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.312,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.375,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 16,
+     "winrate": 0.375,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.4,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 15,
+     "winrate": 0.333,
+     "champion_id": "ecbbe9a4-9956-3828-b9d1-e5c148eb7959"
+    }
+   ]
+  },
+  "LEC - Spring 2026": {
+   "games": 141,
+   "blue_winrate": 0.546,
+   "top_picks": [
+    {
+     "picks": 46,
+     "winrate": 0.478,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 45,
+     "winrate": 0.511,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 41,
+     "winrate": 0.512,
+     "champion_id": "ecbbe9a4-9956-3828-b9d1-e5c148eb7959"
+    },
+    {
+     "picks": 38,
+     "winrate": 0.579,
+     "champion_id": "e5a58f35-4cf1-302e-85fc-e99e161c38ab"
+    },
+    {
+     "picks": 37,
+     "winrate": 0.568,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 36,
+     "winrate": 0.639,
+     "champion_id": "7889d995-c5bd-3d3a-a142-cbec510a328e"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.629,
+     "champion_id": "e0e42b0a-7461-3143-b9a9-b70417c2384d"
+    },
+    {
+     "picks": 35,
+     "winrate": 0.486,
+     "champion_id": "2bcecd67-6a8c-3c44-be6a-bd120bc1dcc5"
+    },
+    {
+     "picks": 33,
+     "winrate": 0.455,
+     "champion_id": "2bf2eedb-58ef-39d3-8be6-88508b55ffc3"
+    },
+    {
+     "picks": 33,
+     "winrate": 0.758,
+     "champion_id": "cdfefdba-3f62-3d3a-b20d-62e9d7a474e1"
+    }
+   ]
+  },
+  "LCS - Split 2 2026": {
+   "games": 98,
+   "blue_winrate": 0.51,
+   "top_picks": [
+    {
+     "picks": 32,
+     "winrate": 0.5,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 28,
+     "winrate": 0.429,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 26,
+     "winrate": 0.5,
+     "champion_id": "159758c6-e12b-32cc-8b30-a3eec29d655c"
+    },
+    {
+     "picks": 26,
+     "winrate": 0.462,
+     "champion_id": "a88709a3-f874-36e6-acec-9cc31b318a50"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.52,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.4,
+     "champion_id": "bbd16ab8-92ed-3f82-8748-b23c20eca335"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.52,
+     "champion_id": "ecbbe9a4-9956-3828-b9d1-e5c148eb7959"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.44,
+     "champion_id": "cdfefdba-3f62-3d3a-b20d-62e9d7a474e1"
+    },
+    {
+     "picks": 25,
+     "winrate": 0.56,
+     "champion_id": "7889d995-c5bd-3d3a-a142-cbec510a328e"
+    },
+    {
+     "picks": 23,
+     "winrate": 0.522,
+     "champion_id": "e7a28e21-1e51-3ff4-ae76-2e7dc7a69ace"
+    }
+   ]
+  },
+  "LCS - Split 3 2026": {
+   "games": 32,
+   "blue_winrate": 0.625,
+   "top_picks": [
+    {
+     "picks": 9,
+     "winrate": 0.667,
+     "champion_id": "3a52e342-5377-32b9-935f-b54a66688acd"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.556,
+     "champion_id": "717061ba-4e85-30e1-9340-aef80368dfa0"
+    },
+    {
+     "picks": 9,
+     "winrate": 0.333,
+     "champion_id": "28c76f65-a320-3efc-8dbf-f5ccd8f30078"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.625,
+     "champion_id": "5fb5f03b-af85-31e8-a476-bf7f73a4819a"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.625,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 8,
+     "winrate": 0.5,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.429,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.429,
+     "champion_id": "a6c6341f-f06c-3428-a0e3-797a0d0e2638"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.571,
+     "champion_id": "a6ba29b1-2523-38e5-9a2c-69a35156f2df"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.0,
+     "champion_id": "2bcecd67-6a8c-3c44-be6a-bd120bc1dcc5"
+    }
+   ]
+  },
+  "LCS - Promotion 2026": {
+   "games": 23,
+   "blue_winrate": 0.783,
+   "top_picks": [
+    {
+     "picks": 7,
+     "winrate": 0.143,
+     "champion_id": "8708d312-6987-35a9-90a5-db14b14babac"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.571,
+     "champion_id": "2318754b-1f27-3758-a5d7-d221fce0f02e"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.571,
+     "champion_id": "e680cccf-8234-39c7-979f-4b749909b65a"
+    },
+    {
+     "picks": 7,
+     "winrate": 0.714,
+     "champion_id": "7552f226-fa3b-3053-b692-0dcdd9c79cf4"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.833,
+     "champion_id": "9530371e-3e7d-3e74-a17d-aa5ac56abf85"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.5,
+     "champion_id": "642972b0-ab79-3cac-812a-29cfbdb6526a"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.5,
+     "champion_id": "40cc8559-a028-35a5-a6dd-5e48c4601d66"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.333,
+     "champion_id": "a0b6984e-e1ec-3e4c-a98d-34a6ba4aec9f"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.667,
+     "champion_id": "717061ba-4e85-30e1-9340-aef80368dfa0"
+    },
+    {
+     "picks": 6,
+     "winrate": 0.333,
+     "champion_id": "a6ba29b1-2523-38e5-9a2c-69a35156f2df"
+    }
+   ]
+  }
+ },
+ "meta": {
+  "generated_by": "pipeline/train_model.py (Fearless Draft Lab)",
+  "note": "Aggregate statistics only. No raw GRID data, extracts, or copies of meta/series.csv are included.",
+  "n_games": 1732
+ }
+}
