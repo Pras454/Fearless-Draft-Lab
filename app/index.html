@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fearless Draft Lab — LoL Draft Simulator &amp; Scouting</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <h1>Fearless Draft Lab</h1>
+    <p class="subtitle">LoL draft simulator &amp; opponent scouting — built for Cloud9 coaching staff</p>
+  </div>
+  <div class="data-badge" id="dataBadge">Loading data…</div>
+</header>
+
+<main>
+  <!-- Series setup -->
+  <section class="card" id="setupCard">
+    <h2>Series setup</h2>
+    <div class="setup-row">
+      <label>Format
+        <select id="formatSelect">
+          <option value="3">Best of 3</option>
+          <option value="5" selected>Best of 5</option>
+        </select>
+      </label>
+      <label>Fearless mode
+        <select id="fearlessSelect">
+          <option value="hard" selected>Hard Fearless (picks locked for both teams)</option>
+          <option value="soft">Soft Fearless (picks locked only for the team that picked them)</option>
+          <option value="off">Fearless off (standard draft)</option>
+        </select>
+      </label>
+      <label>Blue team
+        <input id="blueName" type="text" value="Cloud9 Kia" maxlength="30">
+      </label>
+      <label>Red team
+        <input id="redName" type="text" value="Opponent" maxlength="30">
+      </label>
+      <button id="startSeriesBtn" class="btn primary">Start series</button>
+      <button id="resetSeriesBtn" class="btn">Reset</button>
+    </div>
+    <p class="hint">Hard Fearless: a champion picked by either team in a game cannot be picked by either team for the rest of the series. Bans never carry over.</p>
+  </section>
+
+  <!-- Pool status -->
+  <section class="card" id="poolCard">
+    <h2>Champion pool — <span id="gameLabel">Game 1</span></h2>
+    <div class="pool-bar" id="poolBar"></div>
+    <div class="pool-stats" id="poolStats"></div>
+    <div class="game-tabs" id="gameTabs"></div>
+    <div id="lockedList"></div>
+    <p class="hint" id="fearlessMath"></p>
+  </section>
+
+  <!-- Draft board -->
+  <section class="card" id="draftCard">
+    <h2>Draft board</h2>
+    <div class="turn-indicator" id="turnIndicator">Start a series to begin the draft.</div>
+    <div class="draft-board">
+      <div class="team-column blue">
+        <h3 id="blueTitle">Blue</h3>
+        <div class="slots-label">Bans</div>
+        <div class="slots" id="blueBans"></div>
+        <div class="slots-label">Picks</div>
+        <div class="slots" id="bluePicks"></div>
+      </div>
+      <div class="team-column red">
+        <h3 id="redTitle">Red</h3>
+        <div class="slots-label">Bans</div>
+        <div class="slots" id="redBans"></div>
+        <div class="slots-label">Picks</div>
+        <div class="slots" id="redPicks"></div>
+      </div>
+    </div>
+    <div class="draft-actions">
+      <button id="undoBtn" class="btn" disabled>Undo last action</button>
+      <button id="finishGameBtn" class="btn primary" disabled>Finish game — record winner</button>
+      <label class="winner-label">Winner:
+        <select id="winnerSelect">
+          <option value="blue">Blue</option>
+          <option value="red">Red</option>
+        </select>
+      </label>
+    </div>
+    <div class="series-score" id="seriesScore"></div>
+    <div id="winratePanel"></div>
+    <div id="suggestions"></div>
+  </section>
+
+  <!-- Series draft history -->
+  <section class="card" id="historyCard">
+    <h2>Series draft history</h2>
+    <div id="historyList"><p class="hint">No finished games yet. Complete a draft and record a winner to build the history.</p></div>
+  </section>
+
+  <!-- Champion picker -->
+  <section class="card" id="pickerCard">
+    <h2>Champion pool</h2>
+    <input id="champSearch" type="text" placeholder="Search champion…" autocomplete="off">
+    <div class="champ-grid" id="champGrid"></div>
+    <p class="hint">Greyed-out champions are unavailable: picked or banned this game, or Fearless-locked from earlier games. Win rates come from the GRID dataset (2025–2026 seasons).</p>
+  </section>
+
+  <!-- Opponent tendencies -->
+  <section class="card" id="scoutCard">
+    <h2>Opponent tendencies</h2>
+    <div class="setup-row">
+      <label>Opponent team
+        <select id="teamSelect"><option value="">— select a team —</option></select>
+      </label>
+      <label>Game number
+        <select id="scoutGameSelect">
+          <option value="1">Game 1</option>
+          <option value="2">Game 2</option>
+          <option value="3">Game 3</option>
+          <option value="4">Game 4</option>
+          <option value="5">Game 5</option>
+        </select>
+      </label>
+    </div>
+    <div class="tendency-columns">
+      <div>
+        <h3>Most picked</h3>
+        <ol id="topPicks" class="tendency-list"></ol>
+      </div>
+      <div>
+        <h3>Most banned</h3>
+        <ol id="topBans" class="tendency-list"></ol>
+      </div>
+    </div>
+    <p class="hint" id="scoutSample"></p>
+    <h3>Champion pool depth — key players</h3>
+    <div id="poolDepth"><p class="hint">Select a team to see its players' champion pools.</p></div>
+  </section>
+
+  <!-- Patch & event context -->
+  <section class="card" id="patchCard">
+    <h2>Patch &amp; event context</h2>
+    <div class="setup-row">
+      <label>Patch
+        <select id="patchSelect"><option value="">— select a patch —</option></select>
+      </label>
+      <label>Event
+        <select id="eventSelect"><option value="">— select an event —</option></select>
+      </label>
+    </div>
+    <div id="patchEventInfo"><p class="hint">Pick a patch or an event to see its most-picked champions and Blue-side win rate.</p></div>
+  </section>
+
+  <!-- Champion win rates -->
+  <section class="card" id="champWrCard">
+    <h2>Champion win rates — leaders &amp; laggards</h2>
+    <div class="tendency-columns">
+      <div>
+        <h3>Highest win rate (min. 30 picks)</h3>
+        <ol id="wrTop" class="tendency-list"></ol>
+      </div>
+      <div>
+        <h3>Lowest win rate (min. 30 picks)</h3>
+        <ol id="wrBottom" class="tendency-list"></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Win insights -->
+  <section class="card" id="insightsCard">
+    <h2>How to Win — data-backed insights</h2>
+    <h3>Key bans that swing Game 2</h3>
+    <div id="insightsList"></div>
+    <h3>Comfort picks worth banning</h3>
+    <div id="comfortList"></div>
+    <h3>Shallow champion pools to attack</h3>
+    <div id="shallowList"></div>
+    <h3>Fearless pool math (observed in the data)</h3>
+    <div id="fearlessStats"></div>
+    <p class="hint">Each insight shows its sample size. Small samples are flagged — treat them as leads, not proof.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Data: aggregate statistics computed from the GRID esports feed provided for the Cloud9 x JetBrains hackathon (2025–2026 LoL series). Aggregates only — no raw GRID data is included in this project. The win-rate model is a logistic regression trained offline on 1,732 games; draft composition alone predicts 52.6% of game outcomes on held-out data, so treat its output as a directional signal, not a forecast. Not endorsed by Riot Games.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
